@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+
+h1{
+    text-align: right;
+    font-family:fantasy;
+    font-style: normal;
+    color: whitesmoke;
+    margin: 10 px;
+    
+}
+p{
+    color: crimson;
+    text-align: right;
+    
+}
+
+.navbar-brand_ {
+	float: none;
+	display:block;
+	position: inherit;
+	margin-bottom: 64px;
+	text-align: left;
+	padding-bottom: 64px;
+    margin-top: 64px;
+    
+}
+
+.navbar-brand_ img {
+	max-width: 100%;
+}
+
+.navbar-brand_a:hover {
+	text-decoration: none;
+}
+
+
+.linea-divisora {
+    border-bottom: 7px solid rgb(223, 61, 93);
+    border-width: initial;
+    border-spacing: initial;
+}
