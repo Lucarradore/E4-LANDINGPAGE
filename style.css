@@ -9,6 +9,7 @@ h1{
     font-style: normal;
     color: whitesmoke;
     margin: 10 px;
+    align-items: baseline;
     
 }
 p{
@@ -17,15 +18,18 @@ p{
     
 }
 
+.navbar-brand{
+    position: absolute;
+    top: 40px; left: 40px;
+    
+
+}
+
 .navbar-brand_ {
 	float: none;
-	display:block;
-	position: inherit;
-	margin-bottom: 64px;
 	text-align: left;
-	padding-bottom: 64px;
-    margin-top: 64px;
     
+
 }
 
 .navbar-brand_ img {
@@ -41,4 +45,13 @@ p{
     border-bottom: 7px solid rgb(223, 61, 93);
     border-width: initial;
     border-spacing: initial;
+}
+
+.contenedor {
+    display: flex; 
+    justify-content: space-between;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
 }
