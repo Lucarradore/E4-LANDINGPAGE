@@ -1,5 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    /* bg colors */
+    --background: #02050e;
+    --primary:#1e50ff;
+    --secondary: #272d37;
+    --btn-bg: #050d26;
+    --bg-azul-10: #e9eeff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+
+    /* text colors */
+
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+
+    /* decoration */
+
+    --fire: #ff6d00;
+    --electric: #64d3ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "poppins", sans-serif;
+}
+
 body{
     background-color: black;
+}
+
+header{
+        background-color: black;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
 }
 
 
@@ -10,11 +51,6 @@ h1{
     color: whitesmoke;
     margin: 10 px;
     align-items: baseline;
-    
-}
-p{
-    color: crimson;
-    text-align: right;
     
 }
 
@@ -33,11 +69,8 @@ p{
 }
 
 .navbar-brand_ img {
-	max-width: 100%;
-}
-
-.navbar-brand_a:hover {
-	text-decoration: none;
+	max-width: 40%;
+    padding: 8px;
 }
 
 
@@ -47,11 +80,190 @@ p{
     border-spacing: initial;
 }
 
-.contenedor {
+#contenedor {
     display: flex; 
     justify-content: space-between;
+    align-items: center;
 }
-.contenedor {
+contenedor {
     display: flex;
     align-items: center;
+}
+.navbar-list{
+    display: flex;
+    justify-content: ;
+    align-items: left;
+    margin-left: 900px;
+    left: 40%;
+    gap:30px;
+    text-decoration: none;
+    padding: 20px;
+    width: 40%;
+
+}
+
+.navbar-list a{
+    color: var(--text-gray);
+}
+
+#logo{
+    height: 300px, 300px;
+    padding: 50px
+    max-width: 40%;
+    width: 65px;
+    margin: 20px;
+    
+}
+
+.container{
+    display: flex;
+  justify-content: flex-end;
+}
+
+main{
+    background-color: var(--background);
+    color:var(--text-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#portadaUno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400;
+}
+
+#portadaUno h1, #portadaUno p, .botones-portada{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+
+#portada {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.portada-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.portada-info h1 {
+    display: flex;
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color:#64d3ff;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin-left: 135px;
+}
+
+.portada-info p {
+    font-size: 14px;
+    width: 70%;
+    color: var(--text-gray);
+    text-align: left;
+    
+}
+
+
+
+#botones{
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    right: 33%;
+    position: relative;
+    align-content: center;
+    z-index: 0;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: -100px;
+}
+
+
+.botones-portada{
+    position: absolute;
+    display: flex;
+    gap: 15px;
+}
+
+.boton{
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    border: 3px solid #64d3ff;
+    
+}
+
+.boton-portada, .boton{
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    color: var(--text-white);
+    cursor: pointer;
+   
+    
+}
+
+.boton-portada{
+    margin-top: 120px;
+    background-color:#64d3ff;
+    color: var(--background);
+    border: none;
+    
+}
+
+.portada-img {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portada-img-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#parrafo p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    width: 40%;
+    margin-top: 60px;
+    margin:100px;
+    margin-left: 480px;
+    color: var(--text-gray);
+
 }
