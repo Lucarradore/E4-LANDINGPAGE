@@ -74,12 +74,6 @@ h1{
 }
 
 
-.linea-divisora {
-    border-bottom: 7px solid rgb(223, 61, 93);
-    border-width: initial;
-    border-spacing: initial;
-}
-
 #contenedor {
     display: flex; 
     justify-content: space-between;
@@ -89,17 +83,15 @@ contenedor {
     display: flex;
     align-items: center;
 }
+
+.navbar,
 .navbar-list{
     display: flex;
-    justify-content: ;
-    align-items: left;
-    margin-left: 900px;
-    left: 40%;
-    gap:30px;
-    text-decoration: none;
-    padding: 20px;
-    width: 40%;
-
+    align-items: center;
+    justify-content: center;
+    margin-left: 1000px;
+    gap: 20px
+    
 }
 
 .navbar-list a{
@@ -118,6 +110,12 @@ contenedor {
 .container{
     display: flex;
   justify-content: flex-end;
+}
+
+#menu-hamburguesa,
+#menu-toggle,
+.menu-label {
+    display: none;
 }
 
 main{
@@ -164,6 +162,7 @@ main{
     align-items: center;
     gap: 20px;
     width: 50%;
+    margin-top: -200px;
 }
 
 .portada-info h1 {
@@ -177,6 +176,7 @@ main{
     justify-content: left;
     text-align: left;
     margin-left: 135px;
+    
 }
 
 .portada-info p {
@@ -184,6 +184,7 @@ main{
     width: 70%;
     color: var(--text-gray);
     text-align: left;
+    
     
 }
 
@@ -201,6 +202,7 @@ main{
     max-width: 1200px;
     width: 100%;
     margin-left: -100px;
+    margin-top: -170px;
 }
 
 
@@ -216,6 +218,7 @@ main{
     align-items: center;
     background-color: var(--background);
     border: 3px solid #64d3ff;
+    
     
 }
 
@@ -261,9 +264,194 @@ main{
     text-align: center;
     max-width: 100%;
     width: 40%;
-    margin-top: 60px;
+    
     margin:100px;
     margin-left: 480px;
     color: var(--text-gray);
 
+}
+
+#parrafo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: -400px;
+}
+
+.ventajas{
+    margin-top: -100px;
+    display: flex;
+    flex-direction:column;
+    max-width: 1200px;
+    padding: 70px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.ventajas h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    weight: 100px;
+    font-weight: 900%;
+    font-size:xx-large;
+    margin-top: 100px;
+    color: #64d3ff;
+    
+}
+
+.ventajas p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text-gray);
+}
+
+.ventajeras{
+    margin-top: -50px;
+}
+
+.card{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 300px;
+    height: 290px;
+    padding: 40px 30px;
+    align-items:center;
+    text-align: center;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    gap: 20px;
+    border: 3px solid #64d3ff;
+}
+
+.cardUno{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 300px;
+    height: 290px;
+    padding: 40px 30px;
+    align-items:center;
+    text-align: center;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    gap: 20px;
+    border: 3px solid #64d3ff;
+    margin-left:850px;
+    margin-top: -370px;
+}
+
+.cardDos{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 300px;
+    height: 290px;
+    padding: 40px 30px;
+    align-items:center;
+    text-align: center;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    gap: 20px;
+    border: 3px solid #64d3ff;
+    margin-left: -850px;
+    margin-top: -370px;
+}
+
+.card img{
+    width: 50px;
+}
+.cardUno img{
+    width: 50px;
+}
+.cardDos img{
+    width: 50px;
+}
+
+.card h3{
+    
+    font-weight: 600;
+    font-size: 18px;
+}
+.cardUno h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+.cardDos h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card p{
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--text-gray);
+}
+.cardUno p{
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--text-gray);
+}
+.cardDos p{
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--text-gray);
+}
+
+.contacto{
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin-left: -450px;
+    margin-top: 100px;
+}
+
+.contacto img{
+    width: 30px;
+}
+
+.contacto h4{
+    font-size: xx-large;
+    color: #64d3ff;
+    margin-top: -100px;
+}
+
+.contacto h5{
+    font-size:larger;
+    margin-bottom: 30px;
+    color: var(--text-gray);
+}
+
+.contacto p{
+    font-size:small;
+    color: var(--text-gray);
+}
+
+.maps{
+    
+    margin-left: 550px;
+    margin-top: -470px;
+}
+
+
+
+.logoUno img{
+    width: 100px; 
+    margin-left: 700px;
+    margin-top: 20px;
+    
 }

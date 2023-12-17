@@ -1,0 +1,284 @@
+@media (max-width: 992px){
+    .navbar-list{
+        display: flex;
+        justify-content: ;
+        align-items: left;
+        margin-left: 90px;
+        left: 40%;
+        gap:30px;
+        text-decoration: none;
+        padding: 20px;
+        width: 40%;
+        font-size:x-large;
+    
+    }
+
+    .portada-info h1 {
+        display: flex;
+        font-size: 50px;
+        width: 80%;
+        min-width: 500px;
+        font-weight: 800;
+        color:#64d3ff;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 600px;
+        margin-top: 170px;
+        
+    }
+    
+    .portada-info p {
+        font-size: 16px;
+        width: 70%;
+        color: var(--text-gray);
+        text-align: center;
+        margin-left: 600px;
+        
+        
+    }
+
+    .portada-img {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--secondary);
+        padding: 20px;
+        border-radius: 15px;
+        justify-content: center;
+        gap: 20px;
+        display: none;
+    }
+    
+    #botones{
+        display:inline-block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+        right: 33%;
+        position: relative;
+        align-content: center;
+        z-index: 0;
+        max-width: 1200px;
+        width: 100%;
+        margin-left: 330px;
+        margin-top: -15px;
+    }
+
+    #parrafo p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 100%;
+        width: 40%;
+        margin-top: 220px;
+        margin-left: 480px;
+        color: var(--text-gray);
+    
+    }
+
+    .ventajas{
+        margin-top: -140px;
+        display: flex;
+        flex-direction:column;
+        max-width: 1200px;
+        padding: 70px 0;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    
+    
+
+    .card{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        width: 300px;
+        height: 290px;
+        padding: 40px 30px;
+        align-items:center;
+        text-align: center;
+        background-color: var(--secondary);
+        border-radius: 10px;
+        gap: 20px;
+        border: 3px solid #64d3ff;
+    }
+    
+    .cardUno{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        width: 300px;
+        height: 290px;
+        padding: 40px 30px;
+        align-items:center;
+        text-align: center;
+        background-color: var(--secondary);
+        border-radius: 10px;
+        gap: 20px;
+        border: 3px solid #64d3ff;
+        margin-left:-5px;
+        margin-top: -40px;
+    }
+    
+    .cardDos{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        width: 300px;
+        height: 290px;
+        padding: 40px 30px;
+        align-items:center;
+        text-align: center;
+        background-color: var(--secondary);
+        border-radius: 10px;
+        gap: 20px;
+        border: 3px solid #64d3ff;
+        margin-left: -5px;
+        margin-top: -40px;
+    }
+
+    .contacto{
+        margin-top: 65px;
+        padding: 70px 0;
+        max-width: 1200px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+        margin-left: -10px;
+        margin-top: 100px;
+    }
+
+    .maps{
+    
+        margin-left: -40px;
+        margin-top: -20px;
+    }
+
+    .logoUno img{
+        width: 100px; 
+        margin-left: 400px;
+        margin-top: 20px;
+        
+    }
+
+    #menu-hamburguesa,
+    #menu-toggle,
+    .menu-label {
+        display: none;
+    }
+}
+
+@media (max-width: 576px){
+    
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img {
+        margin-left: 280px;
+        height: 30px;
+        width: 25px;
+    }
+
+    #menu-hamburguesa:checked + .navbar-list {
+        display: flex;
+    }
+
+    .navbar-list {
+        display: flex;
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 98%;
+        flex-direction: column;
+        background-color: var(--nav-bg);
+        border: 2px  solid var(--electric);
+        border-top: 0px;
+        border-radius: 0 0 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+    }
+
+    .navbar {
+        gap: 10px;
+    }
+
+    .navbar-list a {
+        font-size: 18px;
+    }
+
+    .portada-info p {
+        font-size: 16px;
+        max-width: 100%;
+        width: 40%;
+        color: var(--text-gray);
+        text-align: center;
+        margin-left: 600px;
+    }
+
+    #botones{
+        display:inline-block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+        right: 33%;
+        position: relative;
+        align-content: center;
+        z-index: 0;
+        max-width: 1200px;
+        width: 100%;
+        margin-left: 320px;
+        margin-top: 20px;
+    }
+
+    #parrafo p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 90%;
+        width: 40%;
+        margin-top: 220px;
+        margin-left: 490px;
+        color: var(--text-gray);
+    
+    }
+
+    .ventajas{
+        margin-top: -140px;
+        display: flex;
+        flex-direction:column;
+        max-width: 100%;
+        width: 40%;
+        padding: 70px 0;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .logoUno img{
+        width:30px 30vh; 
+        margin-left: 170px;
+        margin-top: 20px;
+        
+    }
+
+    .maps{
+        max-width:100%;
+        width:10%
+        margin-left: -40px;
+        margin-top: -20px;
+    }
+
+
+}
